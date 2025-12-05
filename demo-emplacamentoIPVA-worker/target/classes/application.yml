@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: demo-emplacamentoIPVA-worker
-
-server:
-  port: 8082
