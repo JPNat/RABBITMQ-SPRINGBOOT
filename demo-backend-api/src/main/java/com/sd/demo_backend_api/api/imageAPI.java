@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.sd.demo_backend_api.facade.cadastroTransferenciaFacade;
+import com.sd.demo_backend_api.facade.ImageFacade;
 
 @RestController
 @RequestMapping("/image")
 public class imageAPI {
 
-    @Autowired private cadastroTransferenciaFacade cadastroTransferenciaFacade;
+    @Autowired private ImageFacade imageFacade;
 
     @PostMapping("/send")
     public String uploadImage(@RequestParam("file") MultipartFile file) {
@@ -24,7 +24,7 @@ public class imageAPI {
 
         try {
             
-            return cadastroTransferenciaFacade.Upload(file);
+            return imageFacade.imageUpload(file);
 
         } catch (Exception e) {
             return "Erro ao processar a imagem: " + e.getMessage();
