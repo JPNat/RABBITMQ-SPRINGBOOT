@@ -4,6 +4,9 @@ Como o sistema funciona:
 
 Inicialize a Aplicação SpringBoot de todos os componentes (API e Consumidores).
 Envie uma imagem para a API
+A API enviará a imagem para 2 consumidores que transformam a imagem em escala de cinza
+
+A escolha de API foi preferível, pois suporta diversos produtores
 
 Fila 1:
 <img width="1616" height="737" alt="image" src="https://github.com/user-attachments/assets/3f939c2a-ec2e-4029-bcf1-18dc04f1ec2a" />
