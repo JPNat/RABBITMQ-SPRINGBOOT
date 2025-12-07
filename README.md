@@ -1,5 +1,10 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21961065)
 
+Como o sistema funciona:
+
+Inicialize a Aplicação SpringBoot de todos os componentes (API e Consumidores).
+Envie uma imagem para a API
+
 Fila 1:
 <img width="1616" height="737" alt="image" src="https://github.com/user-attachments/assets/3f939c2a-ec2e-4029-bcf1-18dc04f1ec2a" />
 
