@@ -23,8 +23,7 @@ public class imageAPI {
         }
 
         try {
-            
-            return imageFacade.imageUpload(file);
+            return imageFacade.processImageUpload(file);
 
         } catch (Exception e) {
             return "Erro ao processar a imagem: " + e.getMessage();

@@ -1,13 +1,13 @@
-package com.sd.demo_cadastroTransferencia_worker;
+package com.sd.consumidor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoCadastroTransferenciaWorkerApplication {
+public class ConsumidorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoCadastroTransferenciaWorkerApplication.class, args);
+		SpringApplication.run(ConsumidorApplication.class, args);
 	}
 
 }
