@@ -6,7 +6,7 @@ Como o sistema funciona:
 2. Envie uma imagem para a API
 
 A API enviará a imagem para 2 consumidores que transformam a imagem em escala de cinza.
-A escolha de API foi preferível, pois suporta diversos produtores
+A escolha de API para recebimento de imagens foi escolhida, pois suporta diversos usuários.
 
 Fila 1:
 <img width="1616" height="737" alt="image" src="https://github.com/user-attachments/assets/3f939c2a-ec2e-4029-bcf1-18dc04f1ec2a" />
