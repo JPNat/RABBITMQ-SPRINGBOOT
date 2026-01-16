@@ -5,7 +5,7 @@ Como o sistema funciona:
 1. Inicialize a Aplicação SpringBoot de todos os componentes (API e Consumidores), simulando servidores
 2. Envie uma imagem para a API
 
-A API enviará a imagem para 2 consumidores que transformam a imagem em escala de cinza
+A API enviará a imagem para 2 consumidores que transformam a imagem em escala de cinza.
 A escolha de API foi preferível, pois suporta diversos produtores
 
 Fila 1:
